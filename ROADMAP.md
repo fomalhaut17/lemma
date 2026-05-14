@@ -3,7 +3,7 @@
 이 문서는 lemma의 진행 상황과 다음에 할 일을 가볍게 추적합니다. 정식 스펙이 아니라 **살아있는 메모** — 단계가 끝날 때마다 갱신.
 
 ## Status
-- **Now:** 튜토리얼 작성 중 (Step 2 사용자 완료, Step 3 작성됨 — 사용자 따라하기 대기)
+- **Now:** 튜토리얼 작성 중 (Step 3 사용자 완료, Step 4 작성됨 — 사용자 따라하기 대기)
 - **Current code state:** Initial commit (`950b87b`) — App.tsx 한 파일, CodeMirror + KaTeX 라이브 프리뷰
 
 ## Tutorial track
@@ -12,7 +12,7 @@
 - [x] **01 — Scaffold** · Tauri + React + TS 프로젝트 생성, 첫 실행 (`docs/tutorial/01-scaffold.md`)
 - [ ] **02 — Strip boilerplate** · 기본 `greet` 커맨드 제거, UI 비우기 (`docs/tutorial/02-strip-boilerplate.md`)
 - [ ] **03 — Editor pane** · CodeMirror 설치 + stex 모드 + 다크 테마 (`docs/tutorial/03-editor-pane.md`)
-- [ ] **04 — Preview pane** · KaTeX 설치 + 정적 렌더링
+- [ ] **04 — Preview pane** · KaTeX 설치 + 정적 렌더링 (`docs/tutorial/04-preview-pane.md`)
 - [ ] **05 — Wire it up** · `useState`/`useMemo`로 에디터-프리뷰 연결
 - [ ] **06 — Layout & styling** · 2-pane 레이아웃, 앱 헤더, CSS
 - [ ] **07 — Build** · `tauri build`로 배포용 바이너리 생성
